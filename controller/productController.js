@@ -308,11 +308,11 @@ function getAllProductsInIndustry(industry) {
 
 exports.postAllModels = asyncHandler(async (req, res, next) => {
   
-  const data = require("../dataset/furnitureJSON.json");
+  const data = require("../dataset/sportsJSON.json");
 
   // console.log("DATA",data);
   for (var i = 0; i < data.Sheet1.length; i++) {
-    var Product = new Furniture({
+    var Product = new Sports({
       name: data.Sheet1[i].name,
       description: data.Sheet1[i].description,
       short_description: data.Sheet1[i].short_description,
