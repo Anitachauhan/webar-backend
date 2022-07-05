@@ -1,10 +1,10 @@
-# Web AR Framework Backend [Live Demo](https://sporjo-webar-frontend.herokuapp.com/)
+# Web AR Framework Backend [Live Demo](https://webar-frontend.herokuapp.com/)
 ## Download and Installation
 
 To begin using this framework, choose one of the following options to get started:
-* Clone the repo: `git clone https://github.com/Anitachauhan/sporjo-webar-backend`
-* [Fork, Clone, or Download on GitHub](https://github.com/Anitachauhan/sporjo-webar-backend)
-* [Clone the frontend repo](https://github.com/Anitachauhan/sporjo-webar-frontend)
+* Clone the repo: `git clone https://github.com/Anitachauhan/webar-backend`
+* [Fork, Clone, or Download on GitHub](https://github.com/Anitachauhan/webar-backend)
+* [Clone the frontend repo](https://github.com/Anitachauhan/webar-frontend)
 
 ### Technology
 
@@ -20,7 +20,7 @@ Express requires [Node.js](https://nodejs.org/) v5+ to run.
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-cd sporjo-webar-backend
+cd webar-backend
 npm install
 npm start
 ```
